@@ -1,0 +1,84 @@
+{
+  "rezultatInput": {
+    "2019-08-30T12:21": {
+      "id": 26,
+      "vrijednost": 11133.0,
+      "transakcijaOd": "antevu",
+      "transakcijaPrema": "irb10",
+      "opis": "Tested",
+      "naziv": "Obligation - Income : 2019-08-30T12:21"
+    },
+    "2019-08-31T21:21": {
+      "id": 25,
+      "vrijednost": 111.0,
+      "transakcijaOd": "antevu",
+      "transakcijaPrema": "irb10",
+      "opis": "3132",
+      "naziv": "Obligation - Expense : 2019-08-31T21:21"
+    },
+    "2019-08-27T16:14:18": {
+      "id": 4,
+      "vrijednost": 12.0,
+      "transakcijaOd": "irb10",
+      "transakcijaPrema": "",
+      "opis": "New entry record for korisnik: irb10",
+      "naziv": "Income - 1"
+    },
+    "2019-08-28T11:01": {
+      "id": 41,
+      "vrijednost": 5.0,
+      "transakcijaOd": "antevu",
+      "transakcijaPrema": "irb10",
+      "opis": "Test",
+      "naziv": "Obligation - Expense : 2019-08-28T11:01"
+    },
+    "2019-08-29T11:11": {
+      "id": 38,
+      "vrijednost": 10.0,
+      "transakcijaOd": "antevu",
+      "transakcijaPrema": "irb10",
+      "opis": "Hvala za hranu",
+      "naziv": "Obligation - Expense : 2019-08-29T11:11"
+    },
+    "2019-09-03T14:06:15": {
+      "id": 39,
+      "vrijednost": 11.0,
+      "transakcijaOd": "irb10",
+      "transakcijaPrema": "",
+      "opis": "New entry record for korisnik: irb10",
+      "naziv": "Income - 1"
+    },
+    "2019-09-03T14:06:16": {
+      "id": 40,
+      "vrijednost": 1.0,
+      "transakcijaOd": "irb10",
+      "transakcijaPrema": "",
+      "opis": "New entry record for korisnik: irb10",
+      "naziv": "Expense - 1"
+    },
+    "2019-08-29T21:12": {
+      "id": 29,
+      "vrijednost": 10.0,
+      "transakcijaOd": "antevu",
+      "transakcijaPrema": "irb10",
+      "opis": "Tested",
+      "naziv": "Obligation - Income : 2019-08-29T21:12"
+    },
+    "2019-08-30T11:11": {
+      "id": 24,
+      "vrijednost": 111.0,
+      "transakcijaOd": "antevu",
+      "transakcijaPrema": "irb10",
+      "opis": "Tested",
+      "naziv": "Obligation - Expense : 2019-08-30T11:11"
+    },
+    "2019-08-29T11:01": {
+      "id": 36,
+      "vrijednost": 10.0,
+      "transakcijaOd": "antevu",
+      "transakcijaPrema": "irb10",
+      "opis": "Hvala za sendvič",
+      "naziv": "Obligation - Expense : 2019-08-29T11:01"
+    }
+  }
+}
