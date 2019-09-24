@@ -23,14 +23,14 @@ class ServisFinancija {
         var sumaVrijednostiDana = 0.0
         var brojObavljenihTransakcija = 0
         for (transakcija in transakcije) {
-            if (LocalDateTime.parse(transakcija.key).toLocalDate().toString() == LocalDate.now().minusDays(1).toString()) {
+            if (LocalDateTime.parse(transakcija.key).toLocalDate().toString() == LocalDate.now().toString()) {
                 sumaVrijednostiDana += transakcija.value.vrijednost
                 brojObavljenihTransakcija += 1
             }
         }
         mapaPodataka["Suma vrijednosti dana"] = sumaVrijednostiDana.toString()
         mapaPodataka["Broj obavljenih transakcija"] = brojObavljenihTransakcija.toString()
-        mapaPodataka["Dan izvještaja"] = LocalDate.now().minusDays(1).toString()
+        mapaPodataka["Dan izvještaja"] = LocalDate.now().toString()
         if (brojObavljenihTransakcija > 0) {
             val email = constructEmailMessage(mapaPodataka)
             mailSender.send(email)
